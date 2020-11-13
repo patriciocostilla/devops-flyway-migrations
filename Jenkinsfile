@@ -10,7 +10,7 @@ pipeline {
                 } 
             }
         }
-        state('Migration') {
+        stage('Migration') {
             steps {
                 container('flyway') {
                     script {
